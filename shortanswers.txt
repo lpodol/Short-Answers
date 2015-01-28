@@ -1,0 +1,37 @@
+Short Answer Question
+
+What is the difference between an API and a server?
+
+An API (Application Programming Interface) is, as its full name suggests, a means of providing a set
+of programming standards and instructions for applications to interface with and access a Web service's
+existing shared data. A server is the application that routes client requests and the target application's responses,
+whether this response is an API or otherwise.
+
+
+what does a DNS server do when you type "www.google.com" into an address bar?
+
+A DNS (Domain Name System) server transforms the familiar "www.google.com" address into its less-easily-remembered
+numerical IP address and directs the client request accordingly.
+
+
+What are some differences between a single page application and a multipage application? List one example of each.
+
+A single page application offers the user all of its information in one single page load. The browser never refreshes,
+and though displayed data may be re-rendered dynamically and therefore the page may look different, no new page was generated.
+See: Trello, Google Maps, all of our AJAX exercises.
+A multi-page application, in contrast, loads data according to multiple requests and responses. The browser refreshes
+each time a link is clicked. See: The NYT site.
+
+
+Why do we use RESTful routes?
+
+REST (Representational State Transfer) is what we learned yesterday! Creating RESTful routes meaning adhering to
+a particular standardized style and principle when building and/or accessing Web services or tools. Standardizing language, including
+HTTP verbs like GET, PUT, POST, and DELETE, makes it simpler for applications to communicate with each other and for developers to access
+data from other applications without necessarily knowing the structure of that application in advance.
+
+
+What is an API key and why are they used?
+
+An API key is an individual identifier provided to each user of an API that a.) makes sure no user is incorrectly utilizing the API or violating
+rights agreements, b.) ensures no user is creating undue strain on the application by making too many requests of the API.
